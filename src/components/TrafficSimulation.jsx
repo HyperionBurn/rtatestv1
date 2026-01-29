@@ -5,6 +5,9 @@ const LANE_LENGTH = 100; // % of container
 const CAR_SPEED = 0.5; // % per tick
 const MIN_GREEN_TIME = 2000; // Minimum time a light must stay green
 
+// --- Configuration ---
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 // Algorithm Parameters (User defined)
 const WEIGHTS = {
     car: 1.0,
