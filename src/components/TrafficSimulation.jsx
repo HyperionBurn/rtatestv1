@@ -6,7 +6,7 @@ const CAR_SPEED = 0.5; // % per tick
 const MIN_GREEN_TIME = 2000; // Minimum time a light must stay green
 
 // --- Configuration ---
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = 'https://rtatestv1.onrender.com';
 
 // Algorithm Parameters (User defined)
 const WEIGHTS = {
